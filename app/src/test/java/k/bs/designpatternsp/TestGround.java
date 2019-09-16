@@ -7,9 +7,6 @@ import java.util.Arrays;
 
 import k.bs.designpatternsp.pattern.builder.ja.NutritionFacts;
 import k.bs.designpatternsp.pattern.builder.ja.Student;
-import k.bs.designpatternsp.pattern.builder.ja.User;
-import lombok.experimental.var;
-import lombok.val;
 
 public class TestGround {
 
@@ -38,15 +35,4 @@ public class TestGround {
         NutritionFacts nutritionFacts = nutritionFactsBuilder.build();
 
     }
-
-    @Test
-    public void valVarTest() {
-        val arrVal = Arrays.asList(1, 2, 3, 4, 5);
-        arrVal = new ArrayList<>(); // compile error
-
-        var arrVar = Arrays.asList(1, 2, 3, 4, 5);
-        arrVar = new ArrayList<>();
-    }
-
-
 }

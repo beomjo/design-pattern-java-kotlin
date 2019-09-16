@@ -12,6 +12,5 @@ class TestGroundKt {
             .setOnAccept { /**doSomethine*/ }
             .build()
 
-        dialog.text
     }
 }
