@@ -1,16 +1,24 @@
 package k.bs.designpatternsp.pattern.abstractfactory.ex2.ap;
 
-import k.bs.designpatternsp.pattern.abstractfactory.ex2.ap.factory.AP;
-import k.bs.designpatternsp.pattern.abstractfactory.ex2.battery.factory.Battery;
+import k.bs.designpatternsp.pattern.abstractfactory.ex2.battery.Battery;
 
-public class LGV40 extends AP {
+public class LGV40 implements AP {
+    private Battery battery;
 
     public LGV40(Battery battery) {
-        super(battery);
+        this.battery = battery;
     }
 
     @Override
-    protected void active() {
+    public void process() throws Exception {
+        if (battery.getPower() > 0)
+            active();
+        else
+            throw new Exception("battery is out");
+    }
+
+    @Override
+    public void active() {
         System.out.println("LG Phone Active");
     }
 }
