@@ -25,7 +25,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+<<<<<<< HEAD
     // For Kotlin projects
+=======
+>>>>>>> efb59e2... flyweight pattern
     kotlinOptions {
         jvmTarget = "1.8"
     }
