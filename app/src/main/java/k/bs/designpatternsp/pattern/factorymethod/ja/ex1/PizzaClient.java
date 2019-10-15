@@ -1,8 +1,8 @@
-package k.bs.designpatternsp.pattern.factorymethod.ex1;
+package k.bs.designpatternsp.pattern.factorymethod.ja.ex1;
 
-import k.bs.designpatternsp.pattern.factorymethod.ex1.factory.PizzaFactory;
-import k.bs.designpatternsp.pattern.factorymethod.ex1.pizza.Pizza;
-import k.bs.designpatternsp.pattern.factorymethod.ex1.pizza.PizzaType;
+import k.bs.designpatternsp.pattern.factorymethod.ja.ex1.factory.PizzaFactory;
+import k.bs.designpatternsp.pattern.factorymethod.ja.ex1.pizza.Pizza;
+import k.bs.designpatternsp.pattern.factorymethod.ja.ex1.pizza.PizzaType;
 
 public class PizzaClient {
     public static void main(String[] args) {

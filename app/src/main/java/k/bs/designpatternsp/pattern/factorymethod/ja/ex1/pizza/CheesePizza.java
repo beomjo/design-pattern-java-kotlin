@@ -1,4 +1,4 @@
-package k.bs.designpatternsp.pattern.factorymethod.ex1.pizza;
+package k.bs.designpatternsp.pattern.factorymethod.ja.ex1.pizza;
 
 public class CheesePizza extends Pizza {
     @Override

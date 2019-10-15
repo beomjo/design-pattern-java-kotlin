@@ -1,8 +1,8 @@
-package k.bs.designpatternsp.pattern.factorymethod.ex2;
+package k.bs.designpatternsp.pattern.factorymethod.ja.ex2;
 
-import k.bs.designpatternsp.pattern.factorymethod.ex2.factory.ShapeFactory;
-import k.bs.designpatternsp.pattern.factorymethod.ex2.shape.Shape;
-import k.bs.designpatternsp.pattern.factorymethod.ex2.shape.ShapeType;
+import k.bs.designpatternsp.pattern.factorymethod.ja.ex2.factory.ShapeFactory;
+import k.bs.designpatternsp.pattern.factorymethod.ja.ex2.shape.Shape;
+import k.bs.designpatternsp.pattern.factorymethod.ja.ex2.shape.ShapeType;
 
 public class ShapeClient {
     public static void main(String[] args) {
