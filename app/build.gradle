@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'de.mannodermaus.android-junit5'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -46,4 +48,9 @@ dependencies {
     annotationProcessor "org.projectlombok:lombok:1.18.10" //anotation
     compileOnly 'org.glassfish:javax.annotation:10.0-b28' // package javax.annotation does not exist solved
 
+
+    //junit 5
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.3.2"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.3.2"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:5.3.2"
 }
