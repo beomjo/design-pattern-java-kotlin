@@ -44,9 +44,9 @@ These design patterns are all about class instantiation. This pattern can be fur
 
 ### Builder
 Separates object construction from its representation  
-객체의 생성자에서 파라미터를 분리합니다.  
-<br/>
-[Usecase-kotlin](ttps://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/test/java/k/bs/designpatternsp/creational/builder/BuilderTest.kt)   
+객체의 생성자에서 파라미터를 분리합니다.
+<br/>  
+[Usecase-kotlin](https://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/test/java/k/bs/designpatternsp/creational/builder/BuilderTest.kt)   
 <br/>  
 
 ### Singleton
@@ -130,23 +130,20 @@ Add responsibilities to objects dynamically
 
 ### Facade
 A single class that represents an entire subsystem  
-하나의 클래스가 여러 서브클래스를 대표하여 복잡한 구조를 처리하는 패턴입니다.  
-<br/>
+하나의 클래스가 여러 서브클래스를 대표하여 복잡한 구조를 처리하는 패턴입니다.
 [Usecase-kotlin](https://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/test/java/k/bs/designpatternsp/structural/facade/FacadeTest.kt)   
 [Usecase-java](https://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/main/java/k/bs/designpatternsp/structural/facade/ja/Client.java)
 <br/>  
 
 ### Proxy
-An object representing another object  
-<br/>
+An object representing another object   
 [Usecase-kotlin](https://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/test/java/k/bs/designpatternsp/structural/proxy/ProtectionProxyTest.kt)   
 [Usecase-java](https://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/main/java/k/bs/designpatternsp/structural/proxy/ja/use/Client.java)
 <br/>  
 
 ### Flyweight
 A fine-grained instance used for efficient sharing  
-중복생성될가능성이 높거나, 자원생성비용이 큰 객체를 재사용하는 패턴입니다.  
-<br/>
+중복생성될가능성이 높거나, 자원생성비용이 큰 객체를 재사용하는 패턴입니다.   
 [Usecase-kotlin](https://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/main/java/k/bs/designpatternsp/structural/flyweight/kt/GlyphFactory.kt)   
 [Usecase-java](https://github.com/qjatjr1108/DesignPattern_Java-Kotlin/blob/master/app/src/main/java/k/bs/designpatternsp/structural/flyweight/ja/coffee/Client.java)
 <br/>  
